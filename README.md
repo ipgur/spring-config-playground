@@ -1,3 +1,9 @@
+
+Name     | Status |
+-------- | ------ |
+Build    | [![CircleCI](https://circleci.com/gh/ipgur/spring-config-playground.svg?style=svg)](https://circleci.com/gh/ipgur/spring-config-playground) |
+
+
 Demo project that explores the difference between spring @Configuration and @Component annotations.
 Simply put, two application contexts that look exactly the same, just one is annotated with @Component and the with @Configuration
 behave in totally different way.
@@ -50,7 +56,3 @@ public class MyBeanComponent {
 }
 
 ```  
-
-Name     | Status |
--------- | ------ |
-Build    | [![CircleCI](https://circleci.com/gh/ipgur/spring-config-playground.svg?style=svg)](https://circleci.com/gh/ipgur/spring-config-playground) |
