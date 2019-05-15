@@ -2,6 +2,7 @@
 Name     | Status |
 -------- | ------ |
 Build    | [![CircleCI](https://circleci.com/gh/ipgur/spring-config-playground.svg?style=svg)](https://circleci.com/gh/ipgur/spring-config-playground) |
+BetterCode    | [![BCH compliance](https://bettercodehub.com/edge/badge/ipgur/spring-config-playground?branch=master)](https://bettercodehub.com/)|
 
 
 Demo project that explores the difference between spring @Configuration and @Component annotations.
