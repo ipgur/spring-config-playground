@@ -4,7 +4,7 @@ behave in totally different way.
   
 ```java
 /**
- * All methods marked as @Bean will be wrapped into a CGLIB wrapper
+ * All methods marked as @Bean will be wrapped into a CGLIB wrapper where
  * the first time the method is called, all resulting objects will be registered in the spring context
  * All further calls just return the bean retrieved from the context
  */
@@ -20,7 +20,7 @@ public class MyBeanConfiguration {
     }
 
     /**
-     * @return the MyBeanConsumer instance with the MyBean single instance as a member
+     * @return the MyBeanConsumer singleton instance with the MyBean singleton instance as a member
      */
     @Bean
     public MyBeanConsumer providesMyBeanConsumer() {
